@@ -12,11 +12,13 @@ SplashScreen.preventAutoHideAsync();
 
 export default function App() {
 	const [fontLoaded] = useFonts({
-		"spacegrotesk-light": require("./assets/font/SpaceGrotesk-Light.ttf"),
-		"spacegrotesk-regular": require("./assets/font/SpaceGrotesk-Regular.ttf"),
-		"spacegrotesk-medium": require("./assets/font/SpaceGrotesk-Medium.ttf"),
-		"spacegrotesk-semibold": require("./assets/font/SpaceGrotesk-SemiBold.ttf"),
-		"spacegrotesk-bold": require("./assets/font/SpaceGrotesk-Bold.ttf")
+		"manrope-extralight": require("./assets/font/Manrope-ExtraLight.ttf"),
+		"manrope-light": require("./assets/font/Manrope-Light.ttf"),
+		"manrope-regular": require("./assets/font/Manrope-Regular.ttf"),
+		"manrope-medium": require("./assets/font/Manrope-Medium.ttf"),
+		"manrope-semibold": require("./assets/font/Manrope-SemiBold.ttf"),
+		"manrope-bold": require("./assets/font/Manrope-Bold.ttf"),
+		"manrope-extrabold": require("./assets/font/Manrope-ExtraBold.ttf")
 	});
 
 	const onLayoutRootView = useCallback(async () => {
