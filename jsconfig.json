@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./",
+		"paths": {
+			"@*": ["./*"],
+			"@assets*": ["./assets/*"],
+			"@contexts*": ["./contexts/*"],
+			"@components*": ["./components/*"],
+			"@pages*": ["./pages/*"],
+			"@styles/*": ["./styles/*"],
+			"@routes/*": ["./routes/*"],
+			"@widgets*": ["./widgets/*"],
+			"@lib*": ["./lib/*"],
+			"@api*": ["./api/*"],
+			"@utils*": ["./utils/*"]
+		}
+	},
+	"exclude": ["node_modules"]
+}
