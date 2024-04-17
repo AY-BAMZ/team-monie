@@ -7,6 +7,8 @@ import { useFonts } from "expo-font";
 import MyQueryProviders from "./lib/provider";
 import * as SplashScreen from "expo-splash-screen";
 import { Text } from "react-native";
+import MainNav from "@routes/MainNav";
+import ThemeProvider from "@contexts/ThemeContext";
 
 SplashScreen.preventAutoHideAsync();
 
@@ -34,10 +36,12 @@ export default function App() {
 	return (
 		<>
 			<GestureHandlerRootView style={{ flex: 1 }} onLayout={onLayoutRootView}>
-				<MyQueryProviders>
-					<Toast config={toastConfig} position="bottom" bottomOffset={20} />
-					<Text>Hello There</Text>
-				</MyQueryProviders>
+				<ThemeProvider>
+					<MyQueryProviders>
+						<Toast config={toastConfig} position="bottom" bottomOffset={20} />
+						<MainNav />
+					</MyQueryProviders>
+				</ThemeProvider>
 			</GestureHandlerRootView>
 		</>
 	);
