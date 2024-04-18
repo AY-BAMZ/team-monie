@@ -2,7 +2,6 @@
 import React, { useCallback } from "react";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { useFonts } from "expo-font";
-import MyQueryProviders from "./lib/provider";
 import * as SplashScreen from "expo-splash-screen";
 import MainNav from "@routes/MainNav";
 import ThemeProvider from "@contexts/ThemeContext";
@@ -34,9 +33,7 @@ export default function App() {
 		<>
 			<GestureHandlerRootView style={{ flex: 1 }} onLayout={onLayoutRootView}>
 				<ThemeProvider>
-					<MyQueryProviders>
 						<MainNav />
-					</MyQueryProviders>
 				</ThemeProvider>
 			</GestureHandlerRootView>
 		</>

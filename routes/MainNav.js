@@ -7,6 +7,7 @@ import { SvgXml } from "react-native-svg";
 import Home from "@screens/Home";
 import Profile from "@screens/Profile";
 import { useThemeContext } from "@contexts/ThemeContext";
+import Search from "@screens/Search";
 
 const Tab = createBottomTabNavigator();
 
@@ -59,7 +60,7 @@ export default function MainNav() {
 			>
 				<Tab.Screen
 					name="Search"
-					component={Home}
+					component={Search}
 					options={{
 						tabBarButton: (props) => (
 							<BigTabButton icon={searchIcon} {...props} />
