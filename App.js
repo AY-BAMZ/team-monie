@@ -1,12 +1,9 @@
 // import "react-native-gesture-handler";
-import { toastConfig } from "@lib/Toast/toastConfig";
 import React, { useCallback } from "react";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
-import Toast from "react-native-toast-message";
 import { useFonts } from "expo-font";
 import MyQueryProviders from "./lib/provider";
 import * as SplashScreen from "expo-splash-screen";
-import { Text } from "react-native";
 import MainNav from "@routes/MainNav";
 import ThemeProvider from "@contexts/ThemeContext";
 
@@ -38,7 +35,6 @@ export default function App() {
 			<GestureHandlerRootView style={{ flex: 1 }} onLayout={onLayoutRootView}>
 				<ThemeProvider>
 					<MyQueryProviders>
-						<Toast config={toastConfig} position="bottom" bottomOffset={20} />
 						<MainNav />
 					</MyQueryProviders>
 				</ThemeProvider>
