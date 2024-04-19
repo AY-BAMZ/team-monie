@@ -47,7 +47,7 @@ export default function MainNav() {
 		initialRouteNam: "Home"
 	};
 	const sceneContainerStyle = {
-		backgroundColor: theme.colors.background
+		backgroundColor: theme.colors.white
 	};
 
 	const initialRouteName = {
