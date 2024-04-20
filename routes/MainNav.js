@@ -69,7 +69,7 @@ export default function MainNav() {
 				/>
 				<Tab.Screen
 					name="Messages"
-					component={Home}
+					component={Search}
 					options={{
 						tabBarButton: (props) => (
 							<BigTabButton icon={messageIcon} {...props} />
@@ -92,7 +92,7 @@ export default function MainNav() {
 				/>
 				<Tab.Screen
 					name="Profile"
-					component={Profile}
+					component={Home}
 					options={{
 						tabBarButton: (props) => <BigTabButton icon={homeIcon} {...props} />
 					}}

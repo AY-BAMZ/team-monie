@@ -17,6 +17,7 @@ import {
 	settingsIcon
 } from "@utils/tabIcons";
 import CustomMarker from "@components/CustomMarker";
+import FloatingMenu from "@components/FloatingButton";
 
 const customWidth = Dimensions.get("window").width;
 
@@ -197,9 +198,7 @@ export default function Search() {
 					<SvgXml xml={settingsIcon} width="20" color="#262626" height="32" />
 				</View>
 			</View>
-			<TouchableOpacity style={styles.nav2}>
-				<SvgXml xml={layerIcon} width="20" color="#fff" height="32" />
-			</TouchableOpacity>
+			<FloatingMenu />
 			<View style={styles.navigation}>
 				<View style={styles.nav}>
 					<SvgXml xml={settingsIcon} width="20" color="#fff" height="32" />
