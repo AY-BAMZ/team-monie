@@ -1,35 +1,15 @@
 {
   "expo": {
-    "name": "pays",
-    "slug": "pays",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
     "extra": {
       "eas": {
-        "projectId": "f46693b4-d039-499f-b1c6-052cb28012f9"
+        "projectId": "298029d9-c9e3-4425-ac96-4e1243761e5f"
       }
+    },
+    "android": {
+      "package": "com.getstac.monietest"
+    },
+    "ios": {
+      "bundleIdentifier": "com.getstac.monietest"
     }
   }
 }
