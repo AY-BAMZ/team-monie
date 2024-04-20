@@ -1,15 +1,23 @@
 {
-  "expo": {
-    "extra": {
-      "eas": {
-        "projectId": "298029d9-c9e3-4425-ac96-4e1243761e5f"
-      }
-    },
-    "android": {
-      "package": "com.getstac.monietest"
-    },
-    "ios": {
-      "bundleIdentifier": "com.getstac.monietest"
-    }
-  }
+	"expo": {
+		"extra": {
+			"eas": {
+				"projectId": "298029d9-c9e3-4425-ac96-4e1243761e5f"
+			}
+		},
+		"android": {
+			"package": "com.getstac.monietest",
+			"config": {
+				"googleMaps": {
+					"apiKey": "AIzaSyBapBXnahknI31GZ2ghMSpkM9OqyFgHArk"
+				}
+			}
+		},
+		"ios": {
+			"bundleIdentifier": "com.getstac.monietest",
+			"config": {
+				"googleMapsApiKey": "AIzaSyBapBXnahknI31GZ2ghMSpkM9OqyFgHArk"
+			}
+		}
+	}
 }

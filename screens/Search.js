@@ -8,7 +8,7 @@ import {
 	View
 } from "react-native";
 import React, { useState } from "react";
-import MapView, { Marker } from "react-native-maps";
+import MapView, { PROVIDER_GOOGLE, Marker } from "react-native-maps";
 import { SvgXml } from "react-native-svg";
 import {
 	layerIcon,
@@ -168,7 +168,7 @@ export default function Search() {
 				showsUserLocation={false}
 				showsIndoors={false}
 				showsTraffic={false}
-				provider={"google"}
+				provider={PROVIDER_GOOGLE}
 				userInterfaceStyle="dark"
 				customMapStyle={mapCustomStyle}
 				zoomEnabled={true}
