@@ -166,7 +166,7 @@ export default function Home() {
 						>
 							<Image
 								source={{
-									uri: "https://res.cloudinary.com/dmixz7eur/image/upload/v1713538289/pexels-fotoaibe-1571459_aytjf9.jpg"
+									uri: "https://res.cloudinary.com/dmixz7eur/image/upload/v1713603431/pexels-fotoaibe-1571452_f5l4db.jpg"
 								}}
 								style={{ width: "100%", height: 190, borderRadius: 24 }}
 							/>
@@ -181,7 +181,7 @@ export default function Home() {
 							<View style={{ position: "relative", width: imageWidth / 2 }}>
 								<Image
 									source={{
-										uri: "https://res.cloudinary.com/dmixz7eur/image/upload/v1713538489/pexels-fotoaibe-1571452_cwbikn.jpg"
+										uri: "https://res.cloudinary.com/dmixz7eur/image/upload/v1713603431/pexels-fotoaibe-1571459_zblunz.jpg"
 									}}
 									style={{ width: "100%", height: 388, borderRadius: 24 }}
 								/>
@@ -206,7 +206,7 @@ export default function Home() {
 								>
 									<Image
 										source={{
-											uri: "https://res.cloudinary.com/dmixz7eur/image/upload/v1713538289/pexels-fotoaibe-1571459_aytjf9.jpg"
+											uri: "https://res.cloudinary.com/dmixz7eur/image/upload/v1713603431/pexels-fotoaibe-1571452_f5l4db.jpg"
 										}}
 										style={{ width: "100%", height: 190, borderRadius: 24 }}
 									/>
@@ -223,7 +223,7 @@ export default function Home() {
 								>
 									<Image
 										source={{
-											uri: "https://res.cloudinary.com/dmixz7eur/image/upload/v1713538289/pexels-fotoaibe-1571459_aytjf9.jpg"
+											uri: "https://res.cloudinary.com/dmixz7eur/image/upload/v1713603431/pexels-fotoaibe-1571459_zblunz.jpg"
 										}}
 										style={{ width: "100%", height: 190, borderRadius: 24 }}
 									/>
