@@ -216,7 +216,9 @@ export default function Search() {
 					]}
 				>
 					<SvgXml xml={listIcon} width="20" color="#fff" height="32" />
-					<Text style={{ color: "#fff" }}>List of variants</Text>
+					<Text style={{ color: "#fff", fontFamily: "manrope-regular" }}>
+						List of variants
+					</Text>
 				</View>
 			</View>
 		</View>

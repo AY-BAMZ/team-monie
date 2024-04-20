@@ -87,7 +87,9 @@ export default function Home() {
 							duration={DURATION}
 							delay={600}
 						>
-							<Text style={{ color: "#a5957e" }}>Saint Petersburg</Text>
+							<Text style={{ color: "#a5957e", fontFamily: "manrope-regular" }}>
+								Saint Petersburg
+							</Text>
 						</Animatable.View>
 						<Image
 							source={{
@@ -101,7 +103,11 @@ export default function Home() {
 							animation={fadeInBottom2}
 							duration={DURATION}
 							delay={600}
-							style={{ fontSize: 18, color: "#a5957e" }}
+							style={{
+								fontSize: 18,
+								color: "#a5957e",
+								fontFamily: "manrope-regular"
+							}}
 						>
 							Hi, Marina
 						</Animatable.Text>
@@ -109,7 +115,11 @@ export default function Home() {
 							animation={fadeInBottom2}
 							duration={DURATION}
 							delay={600}
-							style={{ fontSize: 32, maxWidth: 300 }}
+							style={{
+								fontSize: 32,
+								maxWidth: 300,
+								fontFamily: "manrope-regular"
+							}}
 						>
 							let's select your perfect place
 						</Animatable.Text>
@@ -264,28 +274,34 @@ const styles = StyleSheet.create({
 	},
 	text1: {
 		color: "#fff",
-		marginBottom: 30
+		marginBottom: 30,
+		fontFamily: "manrope-regular"
 	},
 	text2: {
 		color: "#fff",
 		fontSize: 40,
+		fontFamily: "manrope-semibold",
 		fontWeight: "600"
 	},
 	text3: {
 		color: "#fff",
+		fontFamily: "manrope-regular",
 		marginBottom: 30
 	},
 	text4: {
 		color: "#a5957e",
+		fontFamily: "manrope-regular",
 		marginBottom: 30
 	},
 	text5: {
 		color: "#a5957e",
 		fontSize: 40,
+		fontFamily: "manrope-semibold",
 		fontWeight: "600"
 	},
 	text6: {
 		color: "#a5957e",
+		fontFamily: "manrope-regular",
 		marginBottom: 30
 	}
 });

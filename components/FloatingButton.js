@@ -58,15 +58,29 @@ const FloatingMenu = () => {
 					>
 						<TouchableOpacity style={styles.menuOption}>
 							<SvgXml xml={layerIcon} width="20" color="#343434" height="32" />
-							<Text>Cosy Area</Text>
+							<Text
+								style={{
+									fontFamily: "manrope-regular"
+								}}
+							>
+								Cosy Area
+							</Text>
 						</TouchableOpacity>
 						<TouchableOpacity style={[styles.menuOption, { color: "#EFA23D" }]}>
 							<SvgXml xml={walletIcon} width="20" color="#EFA23D" height="32" />
-							<Text style={{ color: "#EFA23D" }}>Price</Text>
+							<Text style={{ color: "#EFA23D", fontFamily: "manrope-regular" }}>
+								Price
+							</Text>
 						</TouchableOpacity>
 						<TouchableOpacity style={styles.menuOption}>
 							<SvgXml xml={bagIcon} width="20" color="#343434" height="32" />
-							<Text>Infrastructure</Text>
+							<Text
+								style={{
+									fontFamily: "manrope-regular"
+								}}
+							>
+								Infrastructure
+							</Text>
 						</TouchableOpacity>
 					</Animated.View>
 				</TouchableOpacity>

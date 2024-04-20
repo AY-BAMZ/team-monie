@@ -52,7 +52,12 @@ const AnimatedButton = ({ text, onPress, newWidth = calcWidth }) => {
 	return (
 		<TouchableOpacity onPress={onPress} style={styles.buttonContainer}>
 			<Animated.View style={[styles.button, { width: buttonWidth }]}>
-				<Animated.Text style={[styles.buttonText, { opacity: textOpacity }]}>
+				<Animated.Text
+					style={[
+						styles.buttonText,
+						{ opacity: textOpacity, fontFamily: "manrope-regular" }
+					]}
+				>
 					{text}
 				</Animated.Text>
 				<Animated.View style={[styles.arrow, { opacity: arrowOpacity }]}>
