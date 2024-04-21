@@ -1,11 +1,35 @@
-import { StyleSheet, Text, View } from "react-native";
-import React from "react";
+import { Animated, StyleSheet, Text, View } from "react-native";
+import React, { useEffect, useRef, useState } from "react";
 
 export default function CustomMarker({ name }) {
+	const [animation] = useState(new Animated.Value(0));
+
+	useEffect(() => {
+		Animated.timing(animation, {
+			toValue: 1,
+			duration: 500,
+			useNativeDriver: true
+		}).start();
+	}, []);
+
 	return (
-		<View style={styles.marker}>
+		<Animated.View
+			style={[
+				styles.marker,
+				{
+					transform: [
+						{
+							scale: animation.interpolate({
+								inputRange: [0, 1],
+								outputRange: [0, 1]
+							})
+						}
+					]
+				}
+			]}
+		>
 			<Text style={styles.color}>{name}</Text>
-		</View>
+		</Animated.View>
 	);
 }
 
